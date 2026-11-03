@@ -123,3 +123,54 @@ All examples use an integer `n` as the pattern size.
  32123
 4321234
 ```
+
+## 4. Additional Loop Exercises
+
+### Pattern Exercises
+
+### Pattern 1: Increasing Number Triangle (`NumberTriangle.java`)
+
+**Example for n = 4:**
+
+```text
+1
+12
+123
+1234
+```
+
+### Pattern 2: Floyd's Triangle (`Floyd.java`)
+
+**Example for n = 4:**
+
+```text
+1
+2 3
+4 5 6
+7 8 9 10
+```
+
+### Pattern 3: Butterfly Pattern (`Butterfly.java`)
+
+**Example for n = 4:**
+
+```text
+*      *
+**    **
+***  ***
+********
+***  ***
+**    **
+*      *
+```
+
+### Number and Sequence Exercises
+
+| File                 | Exercise                                       |
+| -------------------- | ---------------------------------------------- |
+| `Armstrong.java`     | Check whether a number is an Armstrong number. |
+| `CountDigits.java`   | Count the number of digits in an integer.      |
+| `Fibonacci.java`     | Generate the Fibonacci sequence.               |
+| `Prime.java`         | Check whether a number is prime.               |
+| `ReverseNumber.java` | Reverse the digits of an integer.              |
+| `SumOfDigits.java`   | Calculate the sum of the digits of an integer. |
