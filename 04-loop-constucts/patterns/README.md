@@ -126,31 +126,7 @@ All examples use an integer `n` as the pattern size.
 
 ## 4. Additional Loop Exercises
 
-### Pattern Exercises
-
-### Pattern 1: Increasing Number Triangle (`NumberTriangle.java`)
-
-**Example for n = 4:**
-
-```text
-1
-12
-123
-1234
-```
-
-### Pattern 2: Floyd's Triangle (`Floyd.java`)
-
-**Example for n = 4:**
-
-```text
-1
-2 3
-4 5 6
-7 8 9 10
-```
-
-### Pattern 3: Butterfly Pattern (`Butterfly.java`)
+### Pattern: Butterfly Pattern (`Butterfly.java`)
 
 **Example for n = 4:**
 
