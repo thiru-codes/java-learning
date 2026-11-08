@@ -1,14 +1,27 @@
-# Hands-on: Inner and Nested Classes
+# Hands-on: Enums
 
-1. **Smart Home Management**
+1. **Payment Status**
 
-   **Goal:** Understand different types of nested and inner classes in Java.
+   **Goal:** Understand how enums can represent a fixed set of constants with associated values.
 
    **Task:**
-   - Create a static nested class `SystemInfo` inside `SmartHomeController` to display controller information.
-   - Create a member inner class `Room` to represent the devices managed by a particular controller.
-   - Create a local class `ConnectionValidator` inside the `validateConnection()` method to validate connection types.
-   - Use an anonymous inner class to provide an implementation of the `DeviceAction` interface.
-   - Demonstrate how each type of class is declared, instantiated, and accessed.
+   - Create an enum `Status` with constants `PENDING`, `SUCCESS`, `FAILED`, and `REFUNDED`.
+   - Associate a status code and message with each enum constant.
+   - Declare fields and initialize them using an enum constructor.
+   - Create getter methods to access the status code and message.
+   - Display the details of selected payment statuses.
 
-   **File:** `SmartHomeManagement.java`
+   **File:** `PaymentSystem.java`
+
+2. **Traffic Light**
+
+   **Goal:** Understand enum constructors, fields, and methods.
+
+   **Task:**
+   - Create an enum `TrafficLight` with constants `RED`, `YELLOW`, and `GREEN`.
+   - Associate a duration and color with each constant.
+   - Initialize the values using an enum constructor.
+   - Create getter methods to access the duration and color.
+   - Display the details of a selected traffic light.
+
+   **File:** `Practice.java`
